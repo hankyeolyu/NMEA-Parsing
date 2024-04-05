@@ -1,0 +1,32 @@
+running egg_info
+writing ../../build/ros2_nmea_pkg/ros2_nmea_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_nmea_pkg/ros2_nmea_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_nmea_pkg/ros2_nmea_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_nmea_pkg/ros2_nmea_pkg.egg-info/requires.txt
+writing top-level names to ../../build/ros2_nmea_pkg/ros2_nmea_pkg.egg-info/top_level.txt
+reading manifest file '../../build/ros2_nmea_pkg/ros2_nmea_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2_nmea_pkg/ros2_nmea_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ros2_nmea_pkg/nmea_publisher.py -> /home/hankyeolyu/vilab/freshman/step2/nmea_ws/build/ros2_nmea_pkg/build/lib/ros2_nmea_pkg
+copying ros2_nmea_pkg/nmea_subscriber_serial.py -> /home/hankyeolyu/vilab/freshman/step2/nmea_ws/build/ros2_nmea_pkg/build/lib/ros2_nmea_pkg
+copying ros2_nmea_pkg/nmea_subscriber.py -> /home/hankyeolyu/vilab/freshman/step2/nmea_ws/build/ros2_nmea_pkg/build/lib/ros2_nmea_pkg
+copying ros2_nmea_pkg/nmea_publisher_serial.py -> /home/hankyeolyu/vilab/freshman/step2/nmea_ws/build/ros2_nmea_pkg/build/lib/ros2_nmea_pkg
+running install
+running install_lib
+copying /home/hankyeolyu/vilab/freshman/step2/nmea_ws/build/ros2_nmea_pkg/build/lib/ros2_nmea_pkg/nmea_publisher.py -> /home/hankyeolyu/vilab/freshman/step2/nmea_ws/install/ros2_nmea_pkg/lib/python3.8/site-packages/ros2_nmea_pkg
+copying /home/hankyeolyu/vilab/freshman/step2/nmea_ws/build/ros2_nmea_pkg/build/lib/ros2_nmea_pkg/nmea_subscriber_serial.py -> /home/hankyeolyu/vilab/freshman/step2/nmea_ws/install/ros2_nmea_pkg/lib/python3.8/site-packages/ros2_nmea_pkg
+copying /home/hankyeolyu/vilab/freshman/step2/nmea_ws/build/ros2_nmea_pkg/build/lib/ros2_nmea_pkg/nmea_subscriber.py -> /home/hankyeolyu/vilab/freshman/step2/nmea_ws/install/ros2_nmea_pkg/lib/python3.8/site-packages/ros2_nmea_pkg
+copying /home/hankyeolyu/vilab/freshman/step2/nmea_ws/build/ros2_nmea_pkg/build/lib/ros2_nmea_pkg/nmea_publisher_serial.py -> /home/hankyeolyu/vilab/freshman/step2/nmea_ws/install/ros2_nmea_pkg/lib/python3.8/site-packages/ros2_nmea_pkg
+byte-compiling /home/hankyeolyu/vilab/freshman/step2/nmea_ws/install/ros2_nmea_pkg/lib/python3.8/site-packages/ros2_nmea_pkg/nmea_publisher.py to nmea_publisher.cpython-38.pyc
+byte-compiling /home/hankyeolyu/vilab/freshman/step2/nmea_ws/install/ros2_nmea_pkg/lib/python3.8/site-packages/ros2_nmea_pkg/nmea_subscriber_serial.py to nmea_subscriber_serial.cpython-38.pyc
+byte-compiling /home/hankyeolyu/vilab/freshman/step2/nmea_ws/install/ros2_nmea_pkg/lib/python3.8/site-packages/ros2_nmea_pkg/nmea_subscriber.py to nmea_subscriber.cpython-38.pyc
+byte-compiling /home/hankyeolyu/vilab/freshman/step2/nmea_ws/install/ros2_nmea_pkg/lib/python3.8/site-packages/ros2_nmea_pkg/nmea_publisher_serial.py to nmea_publisher_serial.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/hankyeolyu/vilab/freshman/step2/nmea_ws/install/ros2_nmea_pkg/lib/python3.8/site-packages/ros2_nmea_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/ros2_nmea_pkg/ros2_nmea_pkg.egg-info to /home/hankyeolyu/vilab/freshman/step2/nmea_ws/install/ros2_nmea_pkg/lib/python3.8/site-packages/ros2_nmea_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing nmea_publisher script to /home/hankyeolyu/vilab/freshman/step2/nmea_ws/install/ros2_nmea_pkg/lib/ros2_nmea_pkg
+Installing nmea_subscriber script to /home/hankyeolyu/vilab/freshman/step2/nmea_ws/install/ros2_nmea_pkg/lib/ros2_nmea_pkg
+writing list of installed files to '/home/hankyeolyu/vilab/freshman/step2/nmea_ws/build/ros2_nmea_pkg/install.log'

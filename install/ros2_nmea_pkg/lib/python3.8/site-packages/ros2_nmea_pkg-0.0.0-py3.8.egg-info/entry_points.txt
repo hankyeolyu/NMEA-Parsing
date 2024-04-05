@@ -1,0 +1,6 @@
+[console_scripts]
+nmea_publisher = ros2_nmea_pkg.nmea_publisher:main
+nmea_subscriber = ros2_nmea_pkg.nmea_subscriber:main
+serial_nmea_publisher = ros2_nmea_pkg.serial_nmea_publisher:main
+serial_nmea_subscriber = ros2_nmea_pkg.serial_nmea_subscriber:main
+
