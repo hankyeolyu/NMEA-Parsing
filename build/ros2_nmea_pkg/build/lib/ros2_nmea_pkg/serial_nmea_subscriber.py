@@ -2,11 +2,11 @@
 
 import warnings
 import rclpy
-import pandas as pd
 from rclpy.node import Node
 from std_msgs.msg import String
 from rclpy.qos import QoSProfile
 from pyproj import Proj, transform
+import pandas as pd
 
 warnings.filterwarnings('ignore')
 
@@ -62,7 +62,7 @@ class SerialNMEASubscriber(Node):
         
             tmp_df = pd.DataFrame({'lat':[lat],'lon':[lon],'utm_x':[utm_north],'utm_y':[utm_east], 'utc':[line[1]]})
             self.df = pd.concat([self.df, tmp_df])
-        except ValueError:
+        except ValueError: # 비어있는 데이터가 들어오는 경우에 대한 예외 처리
             pass
         
 def main(args=None):
@@ -71,7 +71,7 @@ def main(args=None):
     try:
         rclpy.spin(serial_nmea_subscriber)
     except KeyboardInterrupt:
-        serial_nmea_subscriber.df.to_csv('nmea_data.csv', index=False)
+        serial_nmea_subscriber.df.to_csv('nmea_data_2.csv', index=False)
         serial_nmea_subscriber.destroy_node()
         rclpy.shutdown()
         

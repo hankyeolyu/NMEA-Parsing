@@ -9,8 +9,8 @@ from std_msgs.msg import String
 class SerialNMEAPublisher(Node):
     def __init__(self):
         super().__init__('serial_nmea_publisher')
-        self.port = '/dev/ttyACM0'
-        self.usb_port = '/dev/ttyUSB0'
+        self.port = '/dev/ttyACM0' # Arduino Serial 사용 시
+        self.usb_port = '/dev/ttyUSB0' # MRP 2000 사용 시
         self.baudrate = 115200
         self.ser = serial.Serial(self.usb_port, self.baudrate, timeout=1)
         self.qos_profile = QoSProfile(depth=10)
