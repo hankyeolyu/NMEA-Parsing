@@ -1,0 +1,75 @@
+[0.278s] Invoking command in '/home/hankyeolyu/vilab/freshman/step2/NMEA-Parsing/build/nmea_msgs': CMAKE_PREFIX_PATH=/home/hankyeolyu/vilab/freshman/step2/nmea_ws/install/ros2_nmea_pkg:/opt/ros/foxy /usr/bin/cmake /home/hankyeolyu/vilab/freshman/step2/NMEA-Parsing/src/nmea_msgs -DCMAKE_INSTALL_PREFIX=/home/hankyeolyu/vilab/freshman/step2/NMEA-Parsing/install/nmea_msgs
+[0.310s] -- The C compiler identification is GNU 9.4.0
+[0.341s] -- The CXX compiler identification is GNU 9.4.0
+[0.344s] -- Check for working C compiler: /usr/bin/cc
+[0.385s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.385s] -- Detecting C compiler ABI info
+[0.427s] -- Detecting C compiler ABI info - done
+[0.435s] -- Detecting C compile features
+[0.435s] -- Detecting C compile features - done
+[0.436s] -- Check for working CXX compiler: /usr/bin/c++
+[0.486s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.486s] -- Detecting CXX compiler ABI info
+[0.535s] -- Detecting CXX compiler ABI info - done
+[0.541s] -- Detecting CXX compile features
+[0.541s] -- Detecting CXX compile features - done
+[0.543s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.557s] -- Found PythonInterp: /home/hankyeolyu/anaconda3/bin/python3 (found suitable version "3.11.7", minimum required is "3") 
+[0.557s] -- Using PYTHON_EXECUTABLE: /home/hankyeolyu/anaconda3/bin/python3
+[0.659s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.726s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.727s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.731s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.784s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.803s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.851s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.880s] -- Found PythonInterp: /home/hankyeolyu/anaconda3/bin/python3 (found version "3.11.7") 
+[0.922s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.988s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.994s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.008s] -- Found PythonInterp: /home/hankyeolyu/anaconda3/bin/python3 (found suitable version "3.11.7", minimum required is "3.5") 
+[1.009s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.026s] -- Found PythonLibs: /home/hankyeolyu/anaconda3/lib/libpython3.11.so (found suitable version "3.11.7", minimum required is "3.5") 
+[1.026s] -- Using PYTHON_EXECUTABLE: /home/hankyeolyu/anaconda3/bin/python3
+[1.026s] -- Using PYTHON_INCLUDE_DIRS: /home/hankyeolyu/anaconda3/include/python3.11
+[1.027s] -- Using PYTHON_LIBRARIES: /home/hankyeolyu/anaconda3/lib/libpython3.11.so
+[1.039s] -- Found PythonExtra: .so  
+[1.342s] -- Using numpy include directory: /home/hankyeolyu/anaconda3/lib/python3.11/site-packages/numpy/core/include
+[1.351s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.353s] -- Added test 'lint_cmake' to check CMake code style
+[1.354s] -- Added test 'xmllint' to check XML markup files
+[1.361s] -- Configuring done
+[1.380s] -- Generating done
+[1.381s] -- Build files have been written to: /home/hankyeolyu/vilab/freshman/step2/NMEA-Parsing/build/nmea_msgs
+[1.387s] Invoked command in '/home/hankyeolyu/vilab/freshman/step2/NMEA-Parsing/build/nmea_msgs' returned '0': CMAKE_PREFIX_PATH=/home/hankyeolyu/vilab/freshman/step2/nmea_ws/install/ros2_nmea_pkg:/opt/ros/foxy /usr/bin/cmake /home/hankyeolyu/vilab/freshman/step2/NMEA-Parsing/src/nmea_msgs -DCMAKE_INSTALL_PREFIX=/home/hankyeolyu/vilab/freshman/step2/NMEA-Parsing/install/nmea_msgs
+[1.388s] Invoking command in '/home/hankyeolyu/vilab/freshman/step2/NMEA-Parsing/build/nmea_msgs': CMAKE_PREFIX_PATH=/home/hankyeolyu/vilab/freshman/step2/nmea_ws/install/ros2_nmea_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/hankyeolyu/vilab/freshman/step2/NMEA-Parsing/build/nmea_msgs -- -j12 -l12
+[1.410s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.410s] [35m[1mScanning dependencies of target nmea_msgs__cpp[0m
+[1.417s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.442s] Traceback (most recent call last):
+[1.442s]   File "/opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+[1.442s]     from rosidl_generator_c import generate_c
+[1.442s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_c/__init__.py", line 15, in <module>
+[1.442s]     from rosidl_cmake import convert_camel_case_to_lower_case_underscore
+[1.442s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[1.442s]     from rosidl_parser.parser import parse_idl_file
+[1.442s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_parser/parser.py", line 20, in <module>
+[1.442s]     from lark import Lark
+[1.442s] ModuleNotFoundError: No module named 'lark'
+[1.447s] Traceback (most recent call last):
+[1.447s]   File "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+[1.447s]     from rosidl_generator_cpp import generate_cpp
+[1.447s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>
+[1.447s]     from rosidl_cmake import generate_files
+[1.447s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[1.447s]     from rosidl_parser.parser import parse_idl_file
+[1.447s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_parser/parser.py", line 20, in <module>
+[1.447s]     from lark import Lark
+[1.447s] ModuleNotFoundError: No module named 'lark'
+[1.447s] make[2]: *** [CMakeFiles/nmea_msgs__rosidl_generator_c.dir/build.make:75: rosidl_generator_c/nmea_msgs/msg/nmea_data.h] Error 1
+[1.447s] make[1]: *** [CMakeFiles/Makefile2:326: CMakeFiles/nmea_msgs__rosidl_generator_c.dir/all] Error 2
+[1.447s] make[1]: *** Waiting for unfinished jobs....
+[1.452s] make[2]: *** [CMakeFiles/nmea_msgs__cpp.dir/build.make:85: rosidl_generator_cpp/nmea_msgs/msg/nmea_data.hpp] Error 1
+[1.452s] make[1]: *** [CMakeFiles/Makefile2:526: CMakeFiles/nmea_msgs__cpp.dir/all] Error 2
+[1.452s] make: *** [Makefile:141: all] Error 2
+[1.454s] Invoked command in '/home/hankyeolyu/vilab/freshman/step2/NMEA-Parsing/build/nmea_msgs' returned '2': CMAKE_PREFIX_PATH=/home/hankyeolyu/vilab/freshman/step2/nmea_ws/install/ros2_nmea_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/hankyeolyu/vilab/freshman/step2/NMEA-Parsing/build/nmea_msgs -- -j12 -l12

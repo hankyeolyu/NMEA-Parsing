@@ -1,0 +1,6 @@
+{
+  "package_name": "nmea_msgs",
+  "non_idl_tuples": [
+    "/home/hankyeolyu/vilab/freshman/step2/NMEA-Parsing/src/nmea_msgs:msg/NmeaData.msg"
+  ]
+}
